@@ -1,0 +1,365 @@
+
+.image{
+    width: 100px;
+    border-radius: 50px;
+}
+.image1{
+    width: 100px;
+    border-radius: 30px;
+    height: 15%;
+}
+.image2{
+    width: 50px;
+    height:5%
+    border-radius: 50px;
+    
+}
+
+.head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 80px;
+    background-color: azure;
+}
+.main{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.main li{
+    padding:0px 20px;
+    list-style:none;
+}
+.main a{
+    text-decoration: none;
+}
+.homepage{
+    background-image: url(bahom.jpg);
+    height:100%;
+    padding:0,80px;
+    flex-direction: column;
+    background-size:cover;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+.homepage h3{
+    margin-top: 10%;
+    margin-left: 30%;
+    font-size: 400%;
+}
+h1{
+    margin-left: 500px;
+    color:rgb(169, 164, 164);
+    font-size: 1000%;
+    font-variation-settings:inherit;
+    font-weight: bold;
+    font-feature-settings:"abvm";
+    font-display:unset;
+}
+.butt{
+    margin-left: 700px;
+    margin-top: 10%;
+    background-color:aqua;
+    border:0;
+    cursor:pointer;
+    font-size: 13px;
+    font-weight: 600;
+    padding:11px 18px;
+    color:blue;
+    background-color: transparent;
+    outline:none;
+    border-color: aliceblue;
+    transition: 0.2s;
+    font-size: 30px;
+
+}
+.butt:hover{
+    padding:30px;
+    border:2px;
+    
+    border-color:black;
+    background-color: rgb(22, 220, 154);
+}
+.buy-but{
+   
+    border:0;
+    cursor:pointer;
+    font-weight:500;
+    font-size:20px;
+    color:black;
+    border-color:aliceblue;
+    transition:0.2s;
+    border-radius: 30px;
+    background-color: burlywood;
+
+}
+.buy-but:hover{
+    padding:20px;
+    border:2px;
+    
+    border-color:black;
+    background-color: rgb(22, 220, 154);
+}
+.shop-content{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(330px,auto));
+  
+}
+.bu{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(20px,auto))
+}
+.section-title{
+    text-align:center;
+    margin-bottom:1.5rem;
+
+}
+.button{
+    width:60px;
+    border-radius: 30%;
+    background-color:beige;
+}
+.product-box{
+    position:relative;
+}
+.product-box:hover{
+    padding:30px;
+    border:2px;
+    border-color:black;
+}
+.product-box{
+    width:25%;
+    min-width:300px;
+    padding:10px 20px;
+    border-radius:30px;
+    border:1px solid;
+    cursor:pointer;
+    border-color: black;
+    border-width: 1px;
+}
+.product-box img{
+    width:100%;
+    border-radius:20px;
+    border-width: 2px;
+}
+.cato{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.banner{
+    margin-top: 2%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(Tshi.jpg);
+    min-width:700px;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner1{
+    margin-top: 2%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(wat.jpg);
+    min-width:700px;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner2{
+    margin-top: 2%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(shirts.jpg);
+    min-width:700px;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner3{
+    margin-top: 2%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(shoes.jpg);
+    min-width:700px;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cate h3{
+    margin-left:400px;
+    
+}
+.banner h2{
+    color: azure;
+}
+.banner2 h2{
+    color: azure;
+}
+.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding:11px 18px;
+    color:black;
+    background-color: transparent;
+    outline:none;
+    transition: 0.2s;
+}
+.white:hover{
+    padding:30px;
+    border:2px;
+    
+    border-color:black;
+    background-color: rgb(22, 220, 154);
+}
+.black{
+    font-size: 13px;
+    font-weight: 600;
+    padding:11px 18px;
+    color:aliceblue;
+    background-color: transparent;
+    outline:none;
+    border-color: aliceblue;
+    transition: 0.2s;
+
+}
+.black:hover{
+    padding:30px;
+    border:2px;
+    
+    border-color:black;
+    background-color: rgb(22, 220, 154);
+
+}
+.newse{
+    background-color:rgb(3, 3, 30);
+    margin-top: 1%;
+    display:flex;
+    justify-content: space-between;
+}
+.h4{
+    font-size:20px;
+    font-weight:700;
+    color:beige
+}
+.input{
+   
+    margin-top: 2%;
+    height:3rem;
+    padding:0 1.2em;
+    font-size:14px;
+    width:100%;
+    border:1px;
+    border-radius:4px;
+    outline:none
+}
+.sign{
+    margin-top: 2%;
+    width: 40%;
+    height:7vh;
+    background-color:#088178;
+    color:#fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+
+}
+.forrm{
+    margin-right: 5%;
+    display:flex;
+    width:24%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+}
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-bottom:20px;
+}
+.buy img{
+    width:30%;
+    height: 5vh;
+}
+footer p{
+    font-size:13px;
+    margin:0 0 8px 0;
+}
+footer a{
+    font-size:13px;
+    text-decoration: none;
+    margin:0 0 8px 0;
+    color:#222;
+}
+footer .follow{
+    color:#465b52;
+    padding-right: 4px;
+    cursor:pointer;
+
+}
+.productitems .single-pro{
+    width:30%;
+    margin-right:50px;
+
+}
+.productitems {
+    display:flex;
+    margin-top: 20px;;
+}
+.productitems .singleprodeta{
+    width:50%;
+    padding-top: 30px;
+}
+.productitems .singleprodeta h4{
+    font-size:26px;
+}
+.productitems .singleprodeta select{
+    display:flex;
+    padding:5px;
+    margin-bottom: 10px;
+}
+.productitems .singleprodeta input{
+    width:50px;
+    height:47px;
+    padding-left:10px;
+    font-size:16px;
+    margin-right:10px;
+
+}
+.productitems .singleprodeta button{
+    background:#088178;
+    color:#fff;
+
+}
+.cart table{
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+    white-space:nowrap;
+}
+.cart table img{
+    width:70px;
+}
